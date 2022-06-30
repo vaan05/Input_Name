@@ -1,0 +1,9 @@
+name = input("enter name")
+print("hello",name)
+middlename=input("enter your middle if none press enter")
+print("hello Mr.",name,middlename)
+lastname = input("enter your last name")
+print("hello mister",name,middlename,lastname)
+fullname = name+ middlename+ lastname
+print(fullname,"you're nickname is: ",name[:1],middlename[:1],lastname[:1])
+
